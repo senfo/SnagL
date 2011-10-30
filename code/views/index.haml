@@ -3,9 +3,15 @@
   %head
     %title SnagL&trade; Demo
     %link{"type" => "text/css", "href" => "css/base.css", "rel" => "stylesheet"}
-    %script{"type" => "text/javascript", "src" => "javascript/jit/jit.js"}
-    %script{"type" => "text/javascript", "src" => "javascript/forceDirected.js"}
-  %body{"onload" => "init('graphCanvas');"}
+  %body
+    #header
+      SnagL&trade;
     #container
-      #graphCanvas
-      #log
+      %table
+        %thead
+          %th Sample
+          %th Description
+        %tr
+          %td
+            %a{"href" => :forceDirected} Force Directed
+          %td A simple force directed demo
