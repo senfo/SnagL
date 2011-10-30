@@ -26,7 +26,7 @@ var Log = {
 };
 
 
-function init(){
+function init(graphCanvasId){
   // init data
   var json = [
       {
@@ -469,7 +469,7 @@ function init(){
   // init ForceDirected
   var fd = new $jit.ForceDirected({
     //id of the visualization container
-    injectInto: 'infovis',
+    injectInto: graphCanvasId,
     //Enable zooming and panning
     //by scrolling and DnD
     Navigation: {
