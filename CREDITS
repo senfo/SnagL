@@ -1,0 +1,4 @@
+SnagL™ makes extensive use of the open source InfoVis Toolkit by Nicolas Garcia
+Belmonte (https://github.com/philogb) for layout algorithms. Future versions
+may break this dependency, but for now, the work done by Nicolas will more than
+suffice.
